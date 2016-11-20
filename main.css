@@ -1,0 +1,49 @@
+h1 {
+	text-align: center;
+}
+
+fieldset {
+	box-sizing: border-box;
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+button {
+  position: relative;
+  top: 200px;
+  background-color: green;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+.lower-left {
+	position: relative;
+	top: 100px;
+	left: -300px;
+}
+
+.lower-right {
+	position: relative;
+	top: 70px;
+	left: 300px;
+}
+
+form {
+	margin-top: 125px;
+}
+
+input{
+	margin: 10px;
+}
