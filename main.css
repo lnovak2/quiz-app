@@ -11,20 +11,22 @@ fieldset {
 	box-shadow: 10px 10px 5px #888888;
 }
 
-button {
-  position: relative;
-  top: 200px;
+#firstButton{
   background-color: green;
   padding: 20px;
   font-weight: bold;
   font-size: 20px;
+  position: relative;
+  top: 200px;
+  left: 575px;
+
 }
 
 button:hover {
 	cursor: pointer;
 }
 
-.hidden {
+.hidden{
 	display: none;
 }
 
@@ -42,8 +44,18 @@ button:hover {
 
 form {
 	margin-top: 125px;
+	padding-left: 75px;
+	text-align: left;
 }
 
 input{
 	margin: 10px;
+}
+
+.green{
+	color: darkgreen;
+}
+
+.red{
+	color: red;
 }

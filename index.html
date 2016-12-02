@@ -10,19 +10,18 @@
 <header>
 	<h1>Test Your Tennis Knowledge!</h1>
 </header>
-<fieldset>
-	<button type="button" class="hidden">Start Quiz</button>
-	<form class="" action="#" method="post">
-		<h2>Questions</h2>
-		<label><input type="radio" name="answer" value="answer1">Answer 1</label></br>
-		<label><input type="radio" name="answer" value="answer2">Answer2</label></br>
-		<label><input type="radio" name="answer" value="answer3">Answer3</label></br>
-		<label><input type="radio" name="answer" value="answer4">Answer4</label></br>
-		<label><input type="submit" value="Submit"></label>
-	</form>
-	<p class="lower-left">Which question your on</p>
-	<p class="lower-right">Current Score:</p>
+<section id="start-button">
+	<button type="button" id="firstButton">Start Quiz</button>
+</section>
+<fieldset id="main" class="hidden">
+	<form id="form" action="#" method="post"></form>
+	<p class="lower-left"></p>
+	<p class="lower-right"></p>
 </fieldset>
+	<div id="restartPage" class="hidden">
+		<button type="button" id="restartButton">Restart Quiz!</button>
+		<h2></h2>
+	</div>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </body>
